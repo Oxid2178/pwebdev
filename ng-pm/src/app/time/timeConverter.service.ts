@@ -26,8 +26,8 @@ export class TimeConverterService {
     return retVal
   }
 
-public getAmountInNumber(val: string, startPos: number, length: number) : number {
-  return parseInt(val.substr(startPos, length));
-}
+  public getAmountInNumber(val: string, startPos: number, length: number) : number {
+    return parseInt(val.substr(startPos, length));
+  }
 
 }

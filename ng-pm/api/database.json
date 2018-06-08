@@ -103,10 +103,10 @@
   "times": [
     {
       "id": 1,
-      "date": "2018-06-01",
+      "date": "2018-06-08",
       "project": "B.003.001: Administrativ",
       "costType": "Admin/IT",
-      "amount": 3915300,
+      "amount": 18000,
       "comment": "Zeiterfassung und Monatsabschluss"
     },
     {

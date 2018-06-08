@@ -51,6 +51,7 @@ describe('NavComponent', () => {
     authService.isLoggedIn.and.returnValue(true);
     authService.userName.and.returnValue('John Doe');
 
+    // damit der lifecycle angestossen werden kann
     fixture.detectChanges();
 
     expect(component.loginState.userName).toBe('John Doe');

@@ -21,8 +21,8 @@ describe('TimeConverterService', () => {
     expect(service.convertAmountInMinutes("08:05-11:45")).toBe(220);
   }));
 
-  // it('amount should be converted from string in number correctly', inject([TimeConverterService], (service: TimeConverterService) => {
-  //   expect(service.getAmountInNumber("08:06", 0, 2)).toBe(8);
-  // }));
+  it('amount should be converted from string in number correctly', inject([TimeConverterService], (service: TimeConverterService) => {
+    expect(service.getAmountInNumber("08:06", 0, 2)).toBe(8);
+  }));
 
 });

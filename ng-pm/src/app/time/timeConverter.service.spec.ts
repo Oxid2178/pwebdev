@@ -18,7 +18,7 @@ describe('TimeConverterService', () => {
    }));
 
   it('amount should be converted from hour in minute correctly', inject([TimeConverterService], (service: TimeConverterService) => {
-    expect(service.convertAmountInMinutes("2.5")).toBe(150);
+    expect(service.convertAmountInMinutes("08:05-11:45")).toBe(220);
   }));
 
   // it('amount should be converted from string in number correctly', inject([TimeConverterService], (service: TimeConverterService) => {
